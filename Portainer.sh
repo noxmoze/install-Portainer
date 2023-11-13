@@ -1,4 +1,5 @@
 #!/bin/bash
+apt install curl sudo -y
 
 curl -sSL https://get.docker.com/ | CHANNEL=stable bash
 
